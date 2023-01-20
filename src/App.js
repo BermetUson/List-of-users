@@ -42,7 +42,7 @@ function App() {
   return (
     <div className="App">
       {success ? (
-        <Success />
+        <Success count={invites.length} />
       ) : (
         <Users
           ovChangeSearchValue={ovChangeSearchValue}
