@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from "react";
 import "./index.scss";
-import { Success } from "./components/Success";
+// import { Success } from "./components/Success";
 import { Users } from "./components/Users/Users";
 
 function App() {
   const [users, setUsers] = useState([]);
-  const [invites, setInvites] = useState([]);
+  // const [invites, setInvites] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
   const [searchValue, setSearchValue] = useState("");
 
