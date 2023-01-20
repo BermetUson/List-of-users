@@ -5,6 +5,7 @@ import { Users } from "./components/Users/Users";
 
 function App() {
   const [users, setUsers] = useState([]);
+  const [invites, setInvites] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
   const [searchValue, setSearchValue] = useState("");
 
